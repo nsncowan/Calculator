@@ -24,9 +24,9 @@ const alert2 = "the subtraction of your numbers is " + (subtract(number1, number
 const alert3 = "the multiplication of your numbers is " + (multiply(number1, number2)).toString();
 const alert4 = "the division of your numbers is " + (divide(number1, number2)).toString();
 
-const additions = number1.toString() + " +" + number2.toString() + " = " + (add(number1, number2)).toString();
-const subtraction = number1.toString() + " -" + number2.toString() + " = " + (subtract(number1, number2)).toString();
-const mult = number1.toString() + " *" + number2.toString() + " = " + (multiply(number1, number2)).toString();
-const division = number1.toString() + " /" + number2.toString() + " = " + (divide(number1, number2)).toString();
+const additions = number1.toString() + " +" + number2.toString() + " = " + add(number1, number2).toString();
+const subtraction = number1.toString() + " -" + number2.toString() + " = " + subtract(number1, number2).toString();
+const mult = number1.toString() + " *" + number2.toString() + " = " + multiply(number1, number2).toString();
+const division = number1.toString() + " /" + number2.toString() + " = " + divide(number1, number2).toString();
 
 window.alert(additions + " ; " + subtraction + " ; " + mult + " ; " + division);
